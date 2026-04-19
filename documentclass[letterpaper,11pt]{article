@@ -1,0 +1,267 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{fontawesome5}
+\usepackage{academicons}
+\usepackage{tikz}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[left=0.3in,right=0.3in,top=0.7in,bottom=0.3in]{geometry} % Main margin control
+\setlength{\tabcolsep}{3pt} % Reduced table column spacing
+\raggedbottom
+\raggedright
+
+\urlstyle{same}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue
+}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\vspace*{-4em}
+%----------HEADING----------
+\begin{center}
+\textbf{\huge \scshape PRATYUSH KUMAR} \\ \vspace{5pt}
+{\underline{\faMapMarker\ New Delhi, India}} $|$ 
+\href{mailto:pratyushkr1002@gmail.com}{\underline{\faEnvelope\ pratyushkr1002@gmail.com}} $|$ 
+\href{https://pratyush-iota.vercel.app/}{\underline{\faGlobe\ Portfolio}} $|$ 
+\href{https://www.linkedin.com/in/pratyush-kumar-7b844a216/1603/}{\underline{\faLinkedin\ LinkedIn}} $|$ 
+\href{https://github.com/pratyushcodes-source}{\underline{\faGithub\ GitHub}} $|$ 
+\href{tel:+919560388849}{\underline{\faPhone\ +91 9560388849}}
+\vspace{-10pt}
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering and Technology}{\textbf{September 2022 - Present}}
+      {Bachelor of Engineering - Computer and Electronics Engineering; CGPA: 7.8/10}{Patiala, Punjab}
+  \resumeSubHeadingListEnd
+  \vspace{-13pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+\resumeProjectHeading
+  {\textbf{Volvo Group | Software Engineering Intern} }
+  {January 2026 – July 2026 \,|\, \href{https://drive.google.com/file/d/1DX2_uP-bDhDyvdXy_WzlTqK1Ruvtq2}{Certificate}}
+  \resumeItemListStart
+    \resumeItem{Contributed to software development for vehicle connectivity, working across large-scale codebases and modular services.}
+    \resumeItem{Analyzed and debugged complex repositories to trace failures, identify root causes, and improve overall system stability.}
+    \resumeItem{Built automation utilities for test orchestration and log analysis, improving debugging efficiency, reducing manual effort.}
+    \resumeItem{Collaborated with cross-functional teams to review code, validate features, and ensure seamless integration of services.}
+    
+  \resumeItemListEnd
+\resumeProjectHeading
+  {\textbf{Panasonic | AI/ML Intern}}{June 2025 – August 2025 \href{https://drive.google.com/file/d/106UlHcsL57gm_ccBAfAMwVqZv6cg82oY/view?usp=sharing}{| Certificate}}
+  \resumeItemListStart
+    \resumeItem{Developed an intelligent self-help chatbot to replace Panasonic’s outdated FAQ system, boosting customer engagement.}
+    \resumeItem{Implemented local inference using Ollama to embed product manuals and customer reviews for offline understanding.}
+    \resumeItem{Built a robust RAG pipeline with intelligent fallback logic, keyword-based dynamic suggestions, and query matching.}
+    \resumeItem{Integrated real-time summarization and context-aware response generation to enhance support interactions.}
+  \resumeItemListEnd
+
+
+
+
+
+
+
+\resumeProjectHeading
+  {\textbf{Exceldes Interiors | Technology Development Intern}}{June 2024 – August 2024 \href{https://drive.google.com/file/d/1ho-SNZbh5kSne2OBCChe9O9aG_TXUTt0/view?usp=sharing}{| Certificate}}
+  \resumeItemListStart
+    \resumeItem{Built a full-stack AI-powered interior design website that converts real room photos into personalized design makeovers.}
+    \resumeItem{Enabled seamless user journey with side-by-side comparisons, intuitive uploads, and style-driven design previews.}
+    \resumeItem{Implemented a vector-based recommendation engine to suggest layout ideas aligned with user intent and room type.}
+    \resumeItem{Integrated a responsive chatbot offering contextual interior tips, pricing in INR, and India-first sourcing suggestions.}
+    
+  \resumeItemListEnd
+
+
+
+
+
+
+
+
+
+
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+
+
+
+
+
+
+
+\section{Key Projects}
+  \resumeSubHeadingListStart
+
+  \resumeProjectHeading
+  {\textbf{Panasonic Self-Help Chatbot} $|$ \emph{Ollama, ChromaDB, React, Node.js}}{\href{https://github.com/pratyushcodes-source/PANASONIC}{\underline{GitHub}} \href{https://panasonic-chatbot.vercel.app/}{\underline{Live}}}
+  \resumeItemListStart
+    \resumeItem{An AI chatbot that answers product queries by extracting data from 50+ Panasonic manuals and 1000+ user reviews}
+    \resumeItem{Reduced dependency on static FAQ pages by 80\% through vector search using ChromaDB and Ollama LLMs}
+    \resumeItem{Implemented dynamic follow-up suggestions in React, improving user engagement and session duration by 2x}
+  \resumeItemListEnd
+
+
+
+   \resumeProjectHeading
+  {\textbf{Exceldes Interior AI Tool} $|$ \emph{React, Node.js, MongoDB, OpenAI, Pinecone, Clerk}}{\href{https://github.com/pratyushcodes-source/ExcelDes-Interior-Design}{\underline{GitHub}} \href{https://excel-des-interior-design-t6ps.vercel.app//}{\underline{Live}}}
+  \resumeItemListStart
+    \resumeItem{Built a full-stack AI tool that generates GPT-4 Vision-based makeover suggestions for uploaded room images.}
+    \resumeItem{Used OpenAI embeddings + Pinecone for storing searchable design ideas; stored user data in MongoDB.}
+    \resumeItem{Integrated Clerk auth, RESTful APIs (Node.js), and Multer for secure image handling and login flow.}
+  \resumeItemListEnd
+
+
+      \resumeProjectHeading
+  {\textbf{Toxic Comments Classifier} $|$ \emph{Python, NLP, Scikit-learn, nltk}}{\href{https://github.com/pratyushcodes-source/ToxicCommentsClassifier}{\underline{GitHub}}}
+  \resumeItemListStart
+    \resumeItem{Built a deployed multi-label NLP model to classify toxic, obscene, and hateful comments.}
+    \resumeItem{Achieved 91.8\% accuracy and 0.97 ROC-AUC on the Kaggle dataset of 7,000+ comments.}
+    \resumeItem{Improved moderation with 0.91 toxic and 0.81 insult precision; visualized ROC and classification metrics.}
+  \resumeItemListEnd
+
+ \resumeProjectHeading
+  {\textbf{ShopSage: Multi-Agent AI Shopping Assistant} $|$ \emph{LangGraph, LangChain, Streamlit, Python}}{\href{https://github.com/pratyushcodes-source/ShopSage}{\underline{GitHub}}}
+  \resumeItemListStart
+    \resumeItem{Built a multimodal AI app to recognize products from images and retrieve Flipkart/Amazon shopping links}
+    \resumeItem{Deployed a 3-agent system (vision, search, LLM) via LangGraph for fully automated product assistance}
+    \resumeItem{Achieved 85\%+ product recognition accuracy on 100+ test images using CLIP-based models}
+    \resumeItem{Enabled natural-language Q\&A with real-time search and Wikipedia-based context retrieval}
+  \resumeItemListEnd
+
+
+
+
+
+
+
+
+  \resumeSubHeadingListEnd
+
+
+
+
+  \vspace{-15pt}
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{
+    \item{
+      \begin{tabular}{@{}ll}
+      \textbf{Programming Languages:} & C, C++, Python, SQL \\
+      \textbf{Libraries / Frameworks:} & Pandas, Numpy, Matplotlib, Seaborn, MoviePy, BeautifulSoup, Tensorflow, OpenCV \\
+      \textbf{Machine Learning:} & Regression, Classification, Clustering, Neural Networks, Deep Learning \\
+      \textbf{AI Tools and Frameworks:} & GPT-4 Vision, Whisper, Ollama, LangChain, LangGraph, scikit-learn, NLP Techniques \\
+      \textbf{Web Development:} & HTML, CSS, JavaScript, React, Tailwind CSS \\
+      \textbf{Databases \& Tools:} & MongoDB, PostgreSQL, Pinecone, ChromaDB, Git, VS Code, Jupyter Notebooks
+      \end{tabular}
+    }
+  }
+\end{itemize}
+
+
+  
+  \vspace{-15pt}
+  \section{Achievements}
+\begin{itemize}[label={}, leftmargin=0pt, itemindent=12pt, itemsep=2pt, parsep=0pt, topsep=0pt]
+  \item \textbf{600+ DSA Problems Solved} across LeetCode, GeeksforGeeks, and Codeforces — \href{https://leetcode.com/u/pratyushkr/}{\underline{LeetCode}}.
+  \item \textbf{Silver Medalist, Mathematics Olympiad} – Secured top rank in Delhi regional round.
+  \item \textbf{Runner-up, Table Tennis} – Thaparlympics 2025, Inter-university Championship.
+\end{itemize}
+  \vspace{-10pt}
+\section{Certifications}
+\begin{itemize}[label={--}, leftmargin=12pt, itemsep=1pt, parsep=0pt, topsep=0pt]
+  \item \textbf{AI \& Machine Learning Bootcamp} (Udemy) — ML, DL, NLP, and Data Science \href{https://drive.google.com/file/d/1diodlvWSEZirDObxW5rg4Opq_JoPakhK/view?usp=sharing}{\textit{\underline{Credential}}}
+  \item \textbf{LLM Engineering: Master AI, LLMs \& Agents} (Udemy) — LLMs, agents, and real-world AI apps \href{https://drive.google.com/file/d/1Rccm-Z6fIUQxnSduRB7dWE_9MeEsyRlK/view?usp=sharing}{\textit{\underline{Credential}}}
+\end{itemize}
+
+
+
+
+
+\end{document}
